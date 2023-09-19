@@ -102,4 +102,10 @@
   .about-section__pic-container{
     display: none;
   }
+
+  .grid-container {
+    display: grid;
+    gap: 1.875rem;
+    grid-template-columns: 1fr;
+  }
 }

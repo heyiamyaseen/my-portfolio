@@ -36,7 +36,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  margin: 2rem auto;
 }
 
 .nav-links {
@@ -149,9 +149,9 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  /*padding-top: 4vh;*/
+  /*height: 96vh;*/
+  margin: 7rem 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -166,7 +166,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  /*height: 80vh;*/
 }
 
 .section__pic-container {
@@ -389,13 +389,19 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+.grid-container {
+  display: grid;
+  gap: 1.875rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* CONTACT */
 
 #contact {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  /*height: 70vh;*/
 }
 
 .contact-info-upper-container {
@@ -439,7 +445,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  /*height: 26vh;*/
   margin: 0 1rem;
 }
 
